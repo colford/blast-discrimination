@@ -42,8 +42,8 @@ python3 discrimination.py --fasta <fasta-file> --meta <excel-meta-data>
 
            Accepted_Name, [order], family, genus, species
 
-           The Accepted_Name is used to match against the <species> <genus>
-           from the fasta file.
+           The Accepted_Name is used to match against the <genus> <species>
+           from the fasta file (see above).
 
 ## Output
 * A blast database made from the input fasta file "blastdb.*"
