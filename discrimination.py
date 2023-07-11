@@ -379,7 +379,6 @@ def save_discrimination(
     '''
     Saves the discrimination results as an Excel spreadsheet.
     '''
-    print(discrim[0])
     df = DataFrame(
         discrim,
         columns=['ID',
